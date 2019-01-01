@@ -67,7 +67,7 @@ int main(){
   // half II + half iso
   A[18][12] = 0.5f;
   A[18][19] = 0.5f;
-  c[18] = q_w * dx / lambda;
+  c[18] = q_w * dx / lambda / 2;
 
   // half II + half III
   A[23][22] = 1.0f / (2.0 + h * dx / lambda);
